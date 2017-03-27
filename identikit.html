@@ -76,12 +76,16 @@
     var eye_left_y = 100;
     var eye_right_x = 250;
     var eye_right_y = 100;
+    var mouth_x = 105;
+    var mouth_y = 250;
 
     // set initial positions
     document.getElementById('eye_left').style.left = eye_left_x + 'px';
     document.getElementById('eye_left').style.top = eye_left_y + 'px';
     document.getElementById('eye_right').style.left = eye_right_x + 'px';
     document.getElementById('eye_right').style.top = eye_right_y + 'px';
+    document.getElementById('mouth').style.left = mouth_x + 'px';
+    document.getElementById('mouth').style.top = mouth_y + 'px';
 
     // move eyes up event listener
     document.getElementById('eyes_up_btn').addEventListener('click', function() {
